@@ -11,6 +11,11 @@ namespace ConsoleApplication3
         static void Main(string[] args)
         {
             Console.WriteLine("Hello To this World full of fun");
+            
+
+            object x = new object();
+
+            Console.WriteLine(x ?? "test");
             Console.ReadLine();
         }
     }
